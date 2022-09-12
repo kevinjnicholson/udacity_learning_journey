@@ -1,0 +1,27 @@
+INFO     | werkzeug | 24/08/2022 | 17:01:40 -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3111
+ * Running on http://192.168.1.109:3111
+INFO     | werkzeug | 24/08/2022 | 17:01:40 -  [33mPress CTRL+C to quit[0m
+INFO     | werkzeug | 24/08/2022 | 17:01:44 -  192.168.1.109 - - [24/Aug/2022 17:01:44] "GET / HTTP/1.1" 200 -
+INFO     | werkzeug | 24/08/2022 | 17:01:44 -  192.168.1.109 - - [24/Aug/2022 17:01:44] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO     |      app | 24/08/2022 | 17:01:48 -  About Us page retrieved
+INFO     | werkzeug | 24/08/2022 | 17:01:48 -  192.168.1.109 - - [24/Aug/2022 17:01:48] "GET /about HTTP/1.1" 200 -
+INFO     | werkzeug | 24/08/2022 | 17:01:48 -  192.168.1.109 - - [24/Aug/2022 17:01:48] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO     | werkzeug | 24/08/2022 | 17:01:58 -  192.168.1.109 - - [24/Aug/2022 17:01:58] "GET /healthz HTTP/1.1" 200 -
+INFO     | werkzeug | 24/08/2022 | 17:02:03 -  192.168.1.109 - - [24/Aug/2022 17:02:03] "GET /metrics HTTP/1.1" 200 -
+INFO     |      app | 24/08/2022 | 17:02:09 -  Existing article "2020 CNCF Annual Report" retrieved
+INFO     | werkzeug | 24/08/2022 | 17:02:09 -  192.168.1.109 - - [24/Aug/2022 17:02:09] "GET /1 HTTP/1.1" 200 -
+INFO     | werkzeug | 24/08/2022 | 17:02:09 -  192.168.1.109 - - [24/Aug/2022 17:02:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO     |      app | 24/08/2022 | 17:02:15 -  404 page not found
+INFO     | werkzeug | 24/08/2022 | 17:02:15 -  192.168.1.109 - - [24/Aug/2022 17:02:15] "[33mGET /99 HTTP/1.1[0m" 404 -
+INFO     | werkzeug | 24/08/2022 | 17:02:15 -  192.168.1.109 - - [24/Aug/2022 17:02:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO     | werkzeug | 24/08/2022 | 17:02:17 -  192.168.1.109 - - [24/Aug/2022 17:02:17] "GET /create HTTP/1.1" 200 -
+INFO     | werkzeug | 24/08/2022 | 17:02:17 -  192.168.1.109 - - [24/Aug/2022 17:02:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO     |      app | 24/08/2022 | 17:02:26 -  KJN article has been created
+INFO     | werkzeug | 24/08/2022 | 17:02:26 -  192.168.1.109 - - [24/Aug/2022 17:02:26] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO     | werkzeug | 24/08/2022 | 17:02:26 -  192.168.1.109 - - [24/Aug/2022 17:02:26] "GET / HTTP/1.1" 200 -
+INFO     | werkzeug | 24/08/2022 | 17:02:26 -  192.168.1.109 - - [24/Aug/2022 17:02:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO     |      app | 24/08/2022 | 17:02:29 -  Existing article "KJN" retrieved
+INFO     | werkzeug | 24/08/2022 | 17:02:29 -  192.168.1.109 - - [24/Aug/2022 17:02:29] "GET /7 HTTP/1.1" 200 -
+INFO     | werkzeug | 24/08/2022 | 17:02:29 -  192.168.1.109 - - [24/Aug/2022 17:02:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
